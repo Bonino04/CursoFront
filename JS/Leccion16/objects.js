@@ -1,6 +1,3 @@
-let x = 10;
-console.log(x.length);
-
 //declarando Objeto
 let persona = {
     nombre: 'Juan',
@@ -17,3 +14,11 @@ console.log(persona.apellido);
 console.log(persona.email);
 console.log(persona.edad);
 console.log(persona.nombreCompleto())
+
+let persona2 = new Object();
+
+persona2.nombre = 'Carlos';
+persona2.apellido = 'Perez';
+persona2.tel = '55443322';
+persona2.direccion = 'Saturno 15';
+console.log(persona2);
