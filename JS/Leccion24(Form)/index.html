@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo con dom Javascript</title>
+</head>
+<body>
+    <h1 id='cabecero'>Javascript</h1>
+    <p id='parrafo'>saludos</p>
+    <p id='parrafo2'>Otro parrafo</p>
+    <script>
+        let parrafos = document.getElementsByTagName('p');
+        console.log(parrafos.length);
+        for(let i=0; i<parrafos.length;i ++){
+            console.log(parrafos[i].innerHTML);
+        }
+        
+    let cabecero = document.getElementById('cabecero').innerHTML;
+    console.log('valor cabecero' + cabecero);
+    let parrafo = document.getElementById('parrafo').innerHTML;
+    console.log('valor de parrafo ' + parrafo);
+    </script>
+</body>
+</html>
+
